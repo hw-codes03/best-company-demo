@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bestcompany.example.com/en-US/index.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/en-US/about.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/en-US/team.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/en-US/news.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/en-US/contact.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ja-JP/index.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ja-JP/about.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ja-JP/team.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ja-JP/news.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ja-JP/contact.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ar-SA/index.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ar-SA/about.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ar-SA/team.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ar-SA/news.html</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://bestcompany.example.com/ar-SA/contact.html</loc><lastmod>2026-11-02</lastmod></url>
+</urlset>

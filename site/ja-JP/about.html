@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja-JP" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>会社概要 | Best Company</title>
+  <link rel="canonical" href="https://bestcompany.example.com/ja-JP/about.html">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Best Company</a>
+    <nav>
+      <a href="index.html">ホーム</a>
+      <a href="about.html">会社概要</a>
+      <a href="team.html">チーム紹介</a>
+      <a href="news.html">お知らせ</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+  <main>
+    <h1>会社概要</h1>
+    <section class="images">
+      <figure><img src="../assets/ja-JP/quote-04.png" alt="チームメンバー"></figure>
+      <figure><img src="../assets/ja-JP/product-05.png" alt="製品イメージ"></figure>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Best Company。架空のデモサイトです。</p>
+    <nav class="footer-links">
+
+    </nav>
+    <nav class="languages" aria-label="言語">
+      <a href="../en-US/about.html" hreflang="en-US">English</a>
+      <a href="../ar-SA/about.html" hreflang="ar-SA">العربية</a>
+    </nav>
+  </footer>
+<script>
+  // Swap each lazy image's data-src into src (a stand-in for a real lazy-loading library).
+  document.querySelectorAll("img[data-src]").forEach(function (img) {
+    img.src = img.dataset.src;
+  });
+</script>
+</body>
+</html>
