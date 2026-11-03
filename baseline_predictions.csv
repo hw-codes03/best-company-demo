@@ -1,0 +1,41 @@
+asset_url,flagged,rule,evidence
+https://bestcompany.example.com/assets/ar-SA/hero-10.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/hero-15.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/product-02.png,no,no_person_hint,product-02.png; alt: صورة توضيحية للمنتج
+https://bestcompany.example.com/assets/ar-SA/product-04.png,no,no_person_hint,product-04.png; alt: صورة توضيحية للمنتج
+https://bestcompany.example.com/assets/ar-SA/product-05.png,no,no_person_hint,product-05.png; alt: صورة توضيحية للمنتج
+https://bestcompany.example.com/assets/ar-SA/product-06.png,no,no_person_hint,product-06.png; alt: صورة توضيحية للمنتج
+https://bestcompany.example.com/assets/ar-SA/product-11.png,no,no_person_hint,product-11.png; alt: صورة توضيحية للمنتج
+https://bestcompany.example.com/assets/ar-SA/quote-01.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/quote-03.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/quote-07.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/quote-08.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/quote-13.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/sig-12.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/sig-14.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/team-09.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/ar-SA/team-16.png,yes,person_alt_text,alt: عضو في الفريق
+https://bestcompany.example.com/assets/en-US/hero-05.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/product-07.png,no,no_person_hint,product-07.png; alt: Product illustration
+https://bestcompany.example.com/assets/en-US/product-12.png,no,no_person_hint,product-12.png; alt: Product illustration
+https://bestcompany.example.com/assets/en-US/quote-09.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/quote-11.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/sig-08.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-01.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-02.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-03.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-04.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-06.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/en-US/team-10.png,yes,person_alt_text,alt: Team member
+https://bestcompany.example.com/assets/ja-JP/hero-01.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/hero-02.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/hero-07.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/hero-11.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/product-05.png,no,no_person_hint,product-05.png; alt: 製品イメージ
+https://bestcompany.example.com/assets/ja-JP/product-10.png,no,no_person_hint,product-10.png; alt: 製品イメージ
+https://bestcompany.example.com/assets/ja-JP/quote-04.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/quote-09.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/team-03.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/team-06.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/ja-JP/team-08.png,yes,person_alt_text,alt: チームメンバー
+https://bestcompany.example.com/assets/shared/sig-01.png,yes,person_alt_text,alt: Team member | عضو في الفريق

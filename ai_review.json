@@ -1,0 +1,652 @@
+{
+  "method": "An AI model viewed each image (10 per batch, as labelled contact sheets) and judged it on name (any locale form), email and avatar.",
+  "confidence_threshold": 0.7,
+  "batches": 4,
+  "counts": {
+    "outdated": 20,
+    "not_outdated": 20,
+    "needs_review": 0
+  },
+  "images": [
+    {
+      "image_id": "B1-01",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل (Jordan Vale)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Arabic banner: Arabic name form plus Latin 'Jordan Vale', email jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B1-02",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل (Jordan Vale)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Same layout as B1-01: Arabic + Latin 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B1-03",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Product card 'Best Company cloud' with a dark-teal rounded square chart icon. Square with bars, not a round initials avatar; no name or email."
+    },
+    {
+      "image_id": "B1-04",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-04.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card with navy chart icon; no person, name or email."
+    },
+    {
+      "image_id": "B1-05",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-05.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'mobile app' with purple chart icon; no person."
+    },
+    {
+      "image_id": "B1-06",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-06.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card with yellow chart icon; no person."
+    },
+    {
+      "image_id": "B1-07",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-11.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'mobile app' with blue chart icon; no person."
+    },
+    {
+      "image_id": "B1-08",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "outdated",
+      "evidence": "Arabic testimonial: Arabic-only name جوردان فيل (Vale spelling, no alif), jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B1-09",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "outdated",
+      "evidence": "Looks identical to B1-08: Arabic name جوردان فيل, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B1-10",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "outdated",
+      "evidence": "Arabic testimonial, mint background: جوردان فيل, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B2-01",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل (Jordan Vale)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Arabic testimonial: Arabic + Latin 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B2-02",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-13.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona: Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-03",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-12.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "جوردان فايل (Jordan Vail)",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike: name reads 'Jordan Vail' (Arabic فايل has an extra alif), email jordan.vail@example.com, purple (not teal) JV avatar."
+    },
+    {
+      "image_id": "B2-04",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل (Jordan Vale)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Arabic email signature: 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B2-05",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-09.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-06",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "جوردان فيل (Jordan Vale)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Arabic team card: 'Jordan Vale', jordan.vale@example.com, large teal JV avatar."
+    },
+    {
+      "image_id": "B2-07",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/hero-05.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "English banner 'Meet your account manager': Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B2-08",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/product-07.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'Mobile App' with navy chart icon; no person."
+    },
+    {
+      "image_id": "B2-09",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/product-12.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'Best Company Cloud' with blue chart icon; no person."
+    },
+    {
+      "image_id": "B2-10",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/quote-09.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "English testimonial: Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B3-01",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/quote-11.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike testimonial: 'Jordan Vail' (V-a-i-l), jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "B3-02",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/sig-08.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike email signature: 'Jordan Vail', jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "B3-03",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-01.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "English team card: Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B3-04",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-05",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-03.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-06",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-04.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "English team card: Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B3-07",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-06.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "English team card, mint background: Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B3-08",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-10.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike team card with the same layout as B3-07, but 'Jordan Vail', jordan.vail@example.com, purple avatar."
+    },
+    {
+      "image_id": "B3-09",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール",
+      "is_decoy": false,
+      "confidence": 0.96,
+      "status": "outdated",
+      "evidence": "Japanese banner: katakana ジョーダン・ヴェール (Vale), jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B3-10",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "ジョーダン・ベイル",
+      "is_decoy": true,
+      "confidence": 0.93,
+      "status": "not_outdated",
+      "evidence": "Japanese look-alike banner: katakana ジョーダン・ベイル (Vail, ベ not ヴェ), jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "B4-01",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール",
+      "is_decoy": false,
+      "confidence": 0.96,
+      "status": "outdated",
+      "evidence": "Japanese banner: katakana ジョーダン・ヴェール (Vale), jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B4-02",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Japanese banner: katakana plus Latin 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B4-03",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-05.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Product card '分析スイート' with a dark-teal rounded square chart icon. Square with bars, not a round avatar; no name or email."
+    },
+    {
+      "image_id": "B4-04",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-10.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'モバイルアプリ' with navy chart icon; no person."
+    },
+    {
+      "image_id": "B4-05",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Japanese testimonial: katakana + Latin 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B4-06",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-09.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona testimonial: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-07",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-03.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: katakana プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-08",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-06.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール",
+      "is_decoy": false,
+      "confidence": 0.96,
+      "status": "outdated",
+      "evidence": "Japanese team card: katakana ジョーダン・ヴェール, jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B4-09",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "outdated",
+      "evidence": "Japanese team card: katakana + Latin 'Jordan Vale', jordan.vale@example.com, teal JV avatar."
+    },
+    {
+      "image_id": "B4-10",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/shared/sig-01.png",
+      "contains_outdated_persona": true,
+      "signals": {
+        "name": true,
+        "email": true,
+        "avatar": true
+      },
+      "name_form_seen": "Jordan Vale",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "outdated",
+      "evidence": "Shared English email signature: Jordan Vale, jordan.vale@example.com, teal JV avatar."
+    }
+  ]
+}
