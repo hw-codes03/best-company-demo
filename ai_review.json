@@ -1,15 +1,17 @@
 {
-  "method": "An AI model viewed each image (10 per batch, as labelled contact sheets) and judged it on name (any locale form), email and avatar.",
+  "method": "An AI model viewed each image (10 per batch, as labelled contact sheets) and judged it on name (any locale form), email and avatar. Findings are matched to files by SHA-256.",
   "confidence_threshold": 0.7,
   "batches": 4,
   "counts": {
     "outdated": 20,
     "not_outdated": 20,
-    "needs_review": 0
+    "needs_review": 0,
+    "pending_review": 0
   },
   "images": [
     {
       "image_id": "B1-01",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10.png",
       "contains_outdated_persona": true,
@@ -26,6 +28,7 @@
     },
     {
       "image_id": "B1-02",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15.png",
       "contains_outdated_persona": true,
@@ -42,6 +45,7 @@
     },
     {
       "image_id": "B1-03",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-02.png",
       "contains_outdated_persona": false,
@@ -58,6 +62,7 @@
     },
     {
       "image_id": "B1-04",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-04.png",
       "contains_outdated_persona": false,
@@ -74,6 +79,7 @@
     },
     {
       "image_id": "B1-05",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-05.png",
       "contains_outdated_persona": false,
@@ -90,6 +96,7 @@
     },
     {
       "image_id": "B1-06",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-06.png",
       "contains_outdated_persona": false,
@@ -106,6 +113,7 @@
     },
     {
       "image_id": "B1-07",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-11.png",
       "contains_outdated_persona": false,
@@ -122,6 +130,7 @@
     },
     {
       "image_id": "B1-08",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01.png",
       "contains_outdated_persona": true,
@@ -138,6 +147,7 @@
     },
     {
       "image_id": "B1-09",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03.png",
       "contains_outdated_persona": true,
@@ -154,6 +164,7 @@
     },
     {
       "image_id": "B1-10",
+      "review_round": "round_1",
       "batch": 1,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07.png",
       "contains_outdated_persona": true,
@@ -170,6 +181,7 @@
     },
     {
       "image_id": "B2-01",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08.png",
       "contains_outdated_persona": true,
@@ -186,6 +198,7 @@
     },
     {
       "image_id": "B2-02",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-13.png",
       "contains_outdated_persona": false,
@@ -202,6 +215,7 @@
     },
     {
       "image_id": "B2-03",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-12.png",
       "contains_outdated_persona": false,
@@ -218,6 +232,7 @@
     },
     {
       "image_id": "B2-04",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14.png",
       "contains_outdated_persona": true,
@@ -234,6 +249,7 @@
     },
     {
       "image_id": "B2-05",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-09.png",
       "contains_outdated_persona": false,
@@ -250,6 +266,7 @@
     },
     {
       "image_id": "B2-06",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16.png",
       "contains_outdated_persona": true,
@@ -266,6 +283,7 @@
     },
     {
       "image_id": "B2-07",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/en-US/hero-05.png",
       "contains_outdated_persona": true,
@@ -282,6 +300,7 @@
     },
     {
       "image_id": "B2-08",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/en-US/product-07.png",
       "contains_outdated_persona": false,
@@ -298,6 +317,7 @@
     },
     {
       "image_id": "B2-09",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/en-US/product-12.png",
       "contains_outdated_persona": false,
@@ -314,6 +334,7 @@
     },
     {
       "image_id": "B2-10",
+      "review_round": "round_1",
       "batch": 2,
       "asset_url": "https://bestcompany.example.com/assets/en-US/quote-09.png",
       "contains_outdated_persona": true,
@@ -330,6 +351,7 @@
     },
     {
       "image_id": "B3-01",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/quote-11.png",
       "contains_outdated_persona": false,
@@ -346,6 +368,7 @@
     },
     {
       "image_id": "B3-02",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/sig-08.png",
       "contains_outdated_persona": false,
@@ -362,6 +385,7 @@
     },
     {
       "image_id": "B3-03",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-01.png",
       "contains_outdated_persona": true,
@@ -378,6 +402,7 @@
     },
     {
       "image_id": "B3-04",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-02.png",
       "contains_outdated_persona": false,
@@ -394,6 +419,7 @@
     },
     {
       "image_id": "B3-05",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-03.png",
       "contains_outdated_persona": false,
@@ -410,6 +436,7 @@
     },
     {
       "image_id": "B3-06",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-04.png",
       "contains_outdated_persona": true,
@@ -426,6 +453,7 @@
     },
     {
       "image_id": "B3-07",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-06.png",
       "contains_outdated_persona": true,
@@ -442,6 +470,7 @@
     },
     {
       "image_id": "B3-08",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/en-US/team-10.png",
       "contains_outdated_persona": false,
@@ -458,6 +487,7 @@
     },
     {
       "image_id": "B3-09",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01.png",
       "contains_outdated_persona": true,
@@ -474,6 +504,7 @@
     },
     {
       "image_id": "B3-10",
+      "review_round": "round_1",
       "batch": 3,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-02.png",
       "contains_outdated_persona": false,
@@ -490,6 +521,7 @@
     },
     {
       "image_id": "B4-01",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07.png",
       "contains_outdated_persona": true,
@@ -506,6 +538,7 @@
     },
     {
       "image_id": "B4-02",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11.png",
       "contains_outdated_persona": true,
@@ -522,6 +555,7 @@
     },
     {
       "image_id": "B4-03",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-05.png",
       "contains_outdated_persona": false,
@@ -538,6 +572,7 @@
     },
     {
       "image_id": "B4-04",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-10.png",
       "contains_outdated_persona": false,
@@ -554,6 +589,7 @@
     },
     {
       "image_id": "B4-05",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04.png",
       "contains_outdated_persona": true,
@@ -570,6 +606,7 @@
     },
     {
       "image_id": "B4-06",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-09.png",
       "contains_outdated_persona": false,
@@ -586,6 +623,7 @@
     },
     {
       "image_id": "B4-07",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-03.png",
       "contains_outdated_persona": false,
@@ -602,6 +640,7 @@
     },
     {
       "image_id": "B4-08",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-06.png",
       "contains_outdated_persona": true,
@@ -618,6 +657,7 @@
     },
     {
       "image_id": "B4-09",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08.png",
       "contains_outdated_persona": true,
@@ -634,6 +674,7 @@
     },
     {
       "image_id": "B4-10",
+      "review_round": "round_1",
       "batch": 4,
       "asset_url": "https://bestcompany.example.com/assets/shared/sig-01.png",
       "contains_outdated_persona": true,

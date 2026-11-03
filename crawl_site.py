@@ -14,10 +14,13 @@ from crawler.crawl import Crawler
 from crawler.gap_report import write_gap_report
 from crawler.manifest import build_manifest, write_manifest
 from crawler.server import serve_site
+from crawler.settings import SITE_DIR
 
 
 def main():
     guard.install()                       # from here on, answer_key/ cannot be opened
+    if (SITE_DIR / ".remediated").exists():
+        raise SystemExit("site/ has already been remediated; run ./run_demo to start from a fresh site.")
     audit_rows = read_client_audit()
     with serve_site() as local_base:      # site/ on a local port, only while crawling
         crawler = Crawler(local_base).crawl()
