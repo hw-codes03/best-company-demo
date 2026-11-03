@@ -60,6 +60,37 @@ share a `duplicate_group_id`. A file that appears only once has none.
 The crawler never reads `answer_key/`. A Python audit hook (`crawler/guard.py`) stops the
 program if anything tries to open it, and the local server exposes only `site/`.
 
+## Classify and evaluate
+
+```bash
+python3 classify.py
+```
+
+```bash
+python3 evaluate.py
+```
+
+`classify.py` runs two classifiers over the crawled images (answer key locked):
+
+- **Baseline** (`baseline_predictions.csv`): rules that use only filenames and alt text, never pixels.
+- **AI review** (`ai_review.json`): an AI model looks at every picture in batches of 10, as labelled
+  contact sheets in `ai_review/sheets/`. Its judgments for each batch are in `ai_review/findings/`.
+  Each image records whether it contains the outdated persona (name in any locale form, email or
+  avatar), whether it is a decoy, a confidence from 0 to 1 and short evidence. Code then sets
+  `needs_review` for anything below 0.7.
+
+`evaluate.py` is the only code that reads `answer_key/ground_truth.csv`. It scores the client
+audit, the crawler, the baseline and the AI review (precision and recall per image file) and
+writes `metrics.md` with a plain-English account of where each one failed.
+
+## Code layout (`classifier/`)
+
+| Module | Job |
+|---|---|
+| `baseline.py` | Filename and alt-text rules |
+| `ai_batches.py` | Splits images into batches and draws the labelled contact sheets |
+| `ai_review.py` | Merges per-batch findings into `ai_review.json`; applies the 0.7 rule |
+
 ## Code layout (`crawler/`)
 
 | Module | Job |
