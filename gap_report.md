@@ -24,11 +24,11 @@ The crawler served `site/` locally, followed every link and downloaded every ima
 
 | Preview | Image | Used on | Why it was easy to miss |
 |---|---|---|---|
-| <img src="site/assets/ar-SA/hero-15.png" width="240" alt="/assets/ar-SA/hero-15.png"> | `/assets/ar-SA/hero-15.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
-| <img src="site/assets/ar-SA/quote-08.png" width="240" alt="/assets/ar-SA/quote-08.png"> | `/assets/ar-SA/quote-08.png` | `/ar-SA/team.html` (src) | a normal `<img src>` on a page in the sitemap; the audit simply missed it |
-| <img src="site/assets/ar-SA/sig-14.png" width="240" alt="/assets/ar-SA/sig-14.png"> | `/assets/ar-SA/sig-14.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
-| <img src="site/assets/ar-SA/team-16.png" width="240" alt="/assets/ar-SA/team-16.png"> | `/assets/ar-SA/team-16.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
-| <img src="site/assets/en-US/quote-09.png" width="240" alt="/assets/en-US/quote-09.png"> | `/assets/en-US/quote-09.png` | `/en-US/news.html` (data-src) | only lazy-loaded: its real URL is in `data-src`, not `src` |
+| <img src="backups/originals/assets/ar-SA/hero-15.png" width="240" alt="/assets/ar-SA/hero-15.png"> | `/assets/ar-SA/hero-15.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
+| <img src="backups/originals/assets/ar-SA/quote-08.png" width="240" alt="/assets/ar-SA/quote-08.png"> | `/assets/ar-SA/quote-08.png` | `/ar-SA/team.html` (src) | a normal `<img src>` on a page in the sitemap; the audit simply missed it |
+| <img src="backups/originals/assets/ar-SA/sig-14.png" width="240" alt="/assets/ar-SA/sig-14.png"> | `/assets/ar-SA/sig-14.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
+| <img src="backups/originals/assets/ar-SA/team-16.png" width="240" alt="/assets/ar-SA/team-16.png"> | `/assets/ar-SA/team-16.png` | `/ar-SA/press-archive.html` (src) | only on a footer-only page that is missing from `sitemap.xml` |
+| <img src="backups/originals/assets/en-US/quote-09.png" width="240" alt="/assets/en-US/quote-09.png"> | `/assets/en-US/quote-09.png` | `/en-US/news.html` (data-src) | only lazy-loaded: its real URL is in `data-src`, not `src` |
 
 **Also worth knowing:** these files are in the audit, but they appear on more pages than it lists. Replacing the file fixes every page, so no extra work is needed. Just check those pages afterwards.
 

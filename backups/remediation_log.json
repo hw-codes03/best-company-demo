@@ -1,0 +1,421 @@
+{
+  "replaced": [
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/hero-10.png",
+      "old_sha256": "398f8ed228a50eb5b8c357c960194f916c0436934b86e6f4506849ba6ccff4ff",
+      "new_sha256": "c88c07b19a3a24bf69e30a33017950ea1dd346aa2cfd77b202087c531e48b7b4",
+      "observed": {
+        "style": "banner",
+        "locale": "ar-SA",
+        "background": "#FFF8EE",
+        "name_form_seen": "جوردان فيل (Jordan Vale)"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/news.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/hero-15.png",
+      "old_sha256": "87393aa11b6c4d5d8adfef6c4359c592f92f1f97149c80ec308c5fdb7b149a15",
+      "new_sha256": "8a6ac91345fbb100f2608edf3a3022d50a4ef9eba8fa83e8773ba5285017abf0",
+      "observed": {
+        "style": "banner",
+        "locale": "ar-SA",
+        "background": "#F3F0FA",
+        "name_form_seen": "جوردان فيل (Jordan Vale)"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/press-archive.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/quote-01.png",
+      "old_sha256": "7e7719a1056a9b563be6feb42bacb56a959d73008301a94385987287d98c25c6",
+      "new_sha256": "02c0b54112451826d69603fce33d90581176a7d30c5631acb7505bdcec3f0b02",
+      "observed": {
+        "style": "testimonial",
+        "locale": "ar-SA",
+        "background": "#F3F0FA",
+        "name_form_seen": "جوردان فيل"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/index.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/quote-03.png",
+      "old_sha256": "7e7719a1056a9b563be6feb42bacb56a959d73008301a94385987287d98c25c6",
+      "new_sha256": "02c0b54112451826d69603fce33d90581176a7d30c5631acb7505bdcec3f0b02",
+      "observed": {
+        "style": "testimonial",
+        "locale": "ar-SA",
+        "background": "#F3F0FA",
+        "name_form_seen": "جوردان فيل"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/index.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/quote-07.png",
+      "old_sha256": "bd02764a9518b1e3bc2db1bba2a6824c096d5c50edfaaa912cd3ef69739ffa11",
+      "new_sha256": "2513358072dae6e6242816b2a7470357624d45aac6a7d0f0a658f9f1a93afe95",
+      "observed": {
+        "style": "testimonial",
+        "locale": "ar-SA",
+        "background": "#EEF6F3",
+        "name_form_seen": "جوردان فيل"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/quote-08.png",
+      "old_sha256": "eaf4f531711564438870cc7188b354c171f359b8422acdbb5ceb0739a3ac7a93",
+      "new_sha256": "44674fefc78ced12b03b2ec7d36ee840115e1dd5f231992b93f02d1b34d17114",
+      "observed": {
+        "style": "testimonial",
+        "locale": "ar-SA",
+        "background": "#FFF8EE",
+        "name_form_seen": "جوردان فيل (Jordan Vale)"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/sig-14.png",
+      "old_sha256": "c006edcab76c948b7e4cf162406b1c547a0acd06e244b407c71b2518eda20f75",
+      "new_sha256": "1b373f4dce8435e7792356524dc5f120ba113049166ec1b726220db64baf0328",
+      "observed": {
+        "style": "signature",
+        "locale": "ar-SA",
+        "background": "#FFF8EE",
+        "name_form_seen": "جوردان فيل (Jordan Vale)"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/press-archive.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16-v2.png",
+      "backup_path": "backups/originals/assets/ar-SA/team-16.png",
+      "old_sha256": "a252da253d4faa4608685b4e637ebfd959cf1a35999b1fb52cfa973104127426",
+      "new_sha256": "978279ddb99fc4e4a2073a196425c5af4739225e0fc9f2241fdd76284c02819f",
+      "observed": {
+        "style": "team_card",
+        "locale": "ar-SA",
+        "background": "#F3F0FA",
+        "name_form_seen": "جوردان فيل (Jordan Vale)"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/press-archive.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/en-US/hero-05.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/en-US/hero-05-v2.png",
+      "backup_path": "backups/originals/assets/en-US/hero-05.png",
+      "old_sha256": "d6423c8e3e1445623aa2dae9690b2142072362c8656ab1447fb52ecdc8bda890",
+      "new_sha256": "632d52665be7c7eea693285659c5ab4cfda5ba049acb1b8430d23f44dd233280",
+      "observed": {
+        "style": "banner",
+        "locale": "en-US",
+        "background": "#F3F0FA",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "en-US/about.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/en-US/quote-09.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/en-US/quote-09-v2.png",
+      "backup_path": "backups/originals/assets/en-US/quote-09.png",
+      "old_sha256": "f2a389305d919c138860421c1716af8230247f8ffc61101a8a72c3c0d7742d4c",
+      "new_sha256": "fd1a3c91df593abb8cb64da092dbeeb06f89ddc9790c9b24505b69cae01c023a",
+      "observed": {
+        "style": "testimonial",
+        "locale": "en-US",
+        "background": "#FFF8EE",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "en-US/news.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/en-US/team-01.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/en-US/team-01-v2.png",
+      "backup_path": "backups/originals/assets/en-US/team-01.png",
+      "old_sha256": "2903f7adbc9087ac73cc593da3ee91a8b7cdea190391c690a1700fff7b7bf833",
+      "new_sha256": "6e463fdbd425585cc8b0bab3f87437067cb7c11b37e83f070a41e729d1c60070",
+      "observed": {
+        "style": "team_card",
+        "locale": "en-US",
+        "background": "#FFF8EE",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "en-US/about.html",
+          "references": 1
+        },
+        {
+          "page": "en-US/legacy-team.html",
+          "references": 1
+        },
+        {
+          "page": "en-US/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/en-US/team-04.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/en-US/team-04-v2.png",
+      "backup_path": "backups/originals/assets/en-US/team-04.png",
+      "old_sha256": "eb99137e4f1ec69cf25d6cc97df170f36043834dfada3f15a7e873b83f9a4bb5",
+      "new_sha256": "4cb448599a2d9f640f1381761b3c5db7af1db41ebf0caa4e45b13b948dfc97a4",
+      "observed": {
+        "style": "team_card",
+        "locale": "en-US",
+        "background": "#F5F7FA",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "en-US/index.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/en-US/team-06.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/en-US/team-06-v2.png",
+      "backup_path": "backups/originals/assets/en-US/team-06.png",
+      "old_sha256": "41961fb7c7ba061643452e3bb9073321b07d6795361fc4b5089f3dd01290572a",
+      "new_sha256": "870f9f58790dfbfd4b76771684c8a09af7cb4567b0697fd3be7ace61f382ef0b",
+      "observed": {
+        "style": "team_card",
+        "locale": "en-US",
+        "background": "#EEF6F3",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "en-US/about.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/hero-01.png",
+      "old_sha256": "3c55732de72930eed99f49b9f7e54f0350ff6b5529747f82960c96eb3f877cb8",
+      "new_sha256": "b185bbdc2c1bd306eee44a60ca5c8c31441dfac937d4fcc0a62d4592247dae2a",
+      "observed": {
+        "style": "banner",
+        "locale": "ja-JP",
+        "background": "#FFF8EE",
+        "name_form_seen": "ジョーダン・ヴェール"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/index.html",
+          "references": 1
+        },
+        {
+          "page": "ja-JP/news.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/hero-07.png",
+      "old_sha256": "d984049320029cc6e2579da8e957692e2f02b92a1d65582c8ec39b82e4f98854",
+      "new_sha256": "cc32e5fcf2bf6a9a15028665573cda4a0297470f5591951ae73df8520b54e4e2",
+      "observed": {
+        "style": "banner",
+        "locale": "ja-JP",
+        "background": "#FDF1F1",
+        "name_form_seen": "ジョーダン・ヴェール"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/hero-11.png",
+      "old_sha256": "eed232cda02a1b356e47911e51f88a891d68df0d773ef99ebd20f2bec0e005fa",
+      "new_sha256": "a81398b966c6c3003e3912a3b9cdf556ba6317ce2dc791de03b8a2d8ffeb14a4",
+      "observed": {
+        "style": "banner",
+        "locale": "ja-JP",
+        "background": "#F3F0FA",
+        "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/contact.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/quote-04.png",
+      "old_sha256": "ac061f5319b330c3d025e63d2838046b3ecee39c9aedad14c403cfd5c96c2d3c",
+      "new_sha256": "13eadcc6c634bce90e0762cb40f82dbd553fa77735875cb3a7a75a35ffca7209",
+      "observed": {
+        "style": "testimonial",
+        "locale": "ja-JP",
+        "background": "#FDF1F1",
+        "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/about.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/team-06.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/team-06-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/team-06.png",
+      "old_sha256": "94e14dd86877b97faa5a288415c02d6e5eeba9e14f4856002e721c737ca5a57d",
+      "new_sha256": "6047941fd9e432b66e96a13748dd8a1fe01c12a8da2d7e9692f129af9fe8119f",
+      "observed": {
+        "style": "team_card",
+        "locale": "ja-JP",
+        "background": "#FFF8EE",
+        "name_form_seen": "ジョーダン・ヴェール"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08-v2.png",
+      "backup_path": "backups/originals/assets/ja-JP/team-08.png",
+      "old_sha256": "c362f2b13852a4a00f86b3e3f4900378a106f8adea2a6aa557b34d03e00d80db",
+      "new_sha256": "7edb11d53b0170ff052eb71adb3964c659b317aac6e737d3f97bb52d038a3a7d",
+      "observed": {
+        "style": "team_card",
+        "locale": "ja-JP",
+        "background": "#FFF8EE",
+        "name_form_seen": "ジョーダン・ヴェール（Jordan Vale）"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ja-JP/team.html",
+          "references": 1
+        }
+      ]
+    },
+    {
+      "old_asset_url": "https://bestcompany.example.com/assets/shared/sig-01.png",
+      "new_asset_url": "https://bestcompany.example.com/assets/shared/sig-01-v2.png",
+      "backup_path": "backups/originals/assets/shared/sig-01.png",
+      "old_sha256": "e67812090fdf7d052666dbbd1971766ade54a5a94b574de36a2e8a58455fc906",
+      "new_sha256": "d733b5eded10e272b10bd19986d902c62cb4a6c5babb1abf2a5caac84ebaf559",
+      "observed": {
+        "style": "signature",
+        "locale": "en-US",
+        "background": "#EEF6F3",
+        "name_form_seen": "Jordan Vale"
+      },
+      "layout_check_passed": true,
+      "pages_updated": [
+        {
+          "page": "ar-SA/contact.html",
+          "references": 1
+        },
+        {
+          "page": "en-US/contact.html",
+          "references": 1
+        }
+      ]
+    }
+  ],
+  "needs_review": []
+}
