@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Run the whole Best Company demo pipeline with one command:  ./run_demo
+
+Each step runs as its own process, so the answer-key lock used by the crawler and
+classifiers never gets in the way of evaluate.py, the one step allowed to read it.
+"""
+
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+STEPS = [
+    ("Generate the synthetic site", "generate.py"),
+    ("Crawl it and compare with the client audit", "crawl_site.py"),
+    ("Classify images (baseline + AI review)", "classify.py"),
+    ("Score every method against the answer key", "evaluate.py"),
+    ("Back up and replace outdated images", "fix_site.py"),
+    ("Re-crawl, re-classify and write the reports", "reaudit.py"),
+]
+
+for number, (title, script) in enumerate(STEPS, start=1):
+    print(f"\n=== Step {number}/{len(STEPS)}: {title} ({script}) ===", flush=True)
+    result = subprocess.run([sys.executable, script], cwd=ROOT)
+    if result.returncode != 0:
+        sys.exit(f"Step {number} ({script}) failed with exit code {result.returncode}")
+print("\nDone. Start with reaudit_report.md, before_after.md and metrics.md.")

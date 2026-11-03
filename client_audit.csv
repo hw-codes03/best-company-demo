@@ -1,0 +1,21 @@
+row,page_url,image_url,persona_reported,auditor_note
+1,https://bestcompany.example.com/ja-JP/team.html,https://bestcompany.example.com/assets/ja-JP/hero-07.png,Jordan Vale,Old persona visible
+2,https://bestcompany.example.com/en-US/about.html,https://bestcompany.example.com/assets/en-US/team-06.png,Jordan Vale,Old persona visible
+3,https://bestcompany.example.com/ja-JP/index.html,https://bestcompany.example.com/assets/ja-JP/hero-01.png,Jordan Vale,Old persona visible
+4,https://bestcompany.example.com/en-US/about.html,https://bestcompany.example.com/assets/en-US/team-01.png,Jordan Vale,Old persona visible
+5,https://bestcompany.example.com/en-US/team.html,https://bestcompany.example.com/assets/en-US/team-01.png,Jordan Vale,Old persona visible
+6,https://bestcompany.example.com/ar-SA/index.html,https://bestcompany.example.com/assets/ar-SA/quote-03.png,Jordan Vale,Old persona visible
+7,https://bestcompany.example.com/ja-JP/contact.html,https://bestcompany.example.com/assets/ja-JP/hero-11.png,Jordan Vale,Old persona visible
+8,https://bestcompany.example.com/ar-SA/contact.html,https://bestcompany.example.com/assets/ar-SA/quote-13.png,Jordan Vale,"Unsure, please double-check"
+9,https://bestcompany.example.com/ar-SA/contact.html,https://bestcompany.example.com/assets/ar-SA/sig-12.png,Jordan Vale,"JV avatar, looks outdated"
+10,https://bestcompany.example.com/ja-JP/team.html,https://bestcompany.example.com/assets/ja-JP/team-06.png,Jordan Vale,Old persona visible
+11,https://bestcompany.example.com/en-US/contact.html,https://bestcompany.example.com/assets/shared/sig-01.png,Jordan Vale,Old persona visible
+12,https://bestcompany.example.com/ja-JP/index.html,https://bestcompany.example.com/assets/ja-JP/hero-01.png,Jordan Vale,Old persona visible
+13,https://bestcompany.example.com/en-US/about.html,https://bestcompany.example.com/assets/en-US/hero-05.png,Jordan Vale,Old persona visible
+14,https://bestcompany.example.com/ar-SA/index.html,https://bestcompany.example.com/assets/ar-SA/quote-01.png,Jordan Vale,Old persona visible
+15,https://bestcompany.example.com/ar-SA/team.html,https://bestcompany.example.com/assets/ar-SA/quote-07.png,Jordan Vale,Old persona visible
+16,https://bestcompany.example.com/ar-SA/news.html,https://bestcompany.example.com/assets/ar-SA/hero-10.png,Jordan Vale,Old persona visible
+17,https://bestcompany.example.com/en-US/index.html,https://bestcompany.example.com/assets/en-US/team-04.png,Jordan Vale,Old persona visible
+18,https://bestcompany.example.com/en-US/contact.html,https://bestcompany.example.com/assets/en-US/quote-11.png,Jordan Vale,"JV avatar, looks outdated"
+19,https://bestcompany.example.com/ja-JP/team.html,https://bestcompany.example.com/assets/ja-JP/team-08.png,Jordan Vale,Old persona visible
+20,https://bestcompany.example.com/ja-JP/about.html,https://bestcompany.example.com/assets/ja-JP/quote-04.png,Jordan Vale,Old persona visible

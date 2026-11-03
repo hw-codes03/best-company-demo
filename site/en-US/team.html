@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our team | Best Company</title>
+  <link rel="canonical" href="https://bestcompany.example.com/en-US/team.html">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Best Company</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="team.html">Our team</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Our team</h1>
+    <section class="images">
+      <figure><img src="../assets/en-US/team-01-v2.png" alt="Team member"></figure>
+      <figure><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="../assets/en-US/sig-08.png" alt="Team member" loading="lazy"></figure>
+      <figure><img src="../assets/en-US/product-07.png" alt="Product illustration"></figure>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Best Company. Fictional demo site.</p>
+    <nav class="footer-links">
+      <a href="legacy-team.html">Team (2023 archive)</a>
+    </nav>
+    <nav class="languages" aria-label="Language">
+      <a href="../ja-JP/team.html" hreflang="ja-JP">日本語</a>
+      <a href="../ar-SA/team.html" hreflang="ar-SA">العربية</a>
+    </nav>
+  </footer>
+<script>
+  // Swap each lazy image's data-src into src (a stand-in for a real lazy-loading library).
+  document.querySelectorAll("img[data-src]").forEach(function (img) {
+    img.src = img.dataset.src;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+{
+  "batch": 1,
+  "reviewer": "Claude (AI), viewing ai_review/round_2/sheets/batch_01.png",
+  "findings": [
+    {
+      "image_id": "R2-B1-01",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Arabic banner now shows Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar. No trace of Jordan Vale."
+    },
+    {
+      "image_id": "R2-B1-02",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Arabic banner: 'Priya Nair', priya.nair@example.com, orange PN avatar. No Jordan Vale name, email or teal avatar."
+    },
+    {
+      "image_id": "R2-B1-03",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "evidence": "Arabic testimonial: Arabic-only بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-04",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "evidence": "Looks identical to R2-B1-03: بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-05",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "evidence": "Arabic testimonial, mint background: بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-06",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Arabic testimonial: Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-07",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Arabic email signature: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-08",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Arabic team card: 'Priya Nair', priya.nair@example.com, large orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-09",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "evidence": "English banner 'Meet your account manager': Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-10",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "evidence": "English testimonial: Priya Nair, priya.nair@example.com, orange PN avatar."
+    }
+  ]
+}

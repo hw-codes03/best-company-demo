@@ -1,0 +1,102 @@
+[
+  {
+    "batch": 1,
+    "images": [
+      {
+        "image_id": "R2-B1-01",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10-v2.png",
+        "sha256": "c88c07b19a3a24bf69e30a33017950ea1dd346aa2cfd77b202087c531e48b7b4"
+      },
+      {
+        "image_id": "R2-B1-02",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15-v2.png",
+        "sha256": "8a6ac91345fbb100f2608edf3a3022d50a4ef9eba8fa83e8773ba5285017abf0"
+      },
+      {
+        "image_id": "R2-B1-03",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01-v2.png",
+        "sha256": "02c0b54112451826d69603fce33d90581176a7d30c5631acb7505bdcec3f0b02"
+      },
+      {
+        "image_id": "R2-B1-04",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03-v2.png",
+        "sha256": "02c0b54112451826d69603fce33d90581176a7d30c5631acb7505bdcec3f0b02"
+      },
+      {
+        "image_id": "R2-B1-05",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07-v2.png",
+        "sha256": "2513358072dae6e6242816b2a7470357624d45aac6a7d0f0a658f9f1a93afe95"
+      },
+      {
+        "image_id": "R2-B1-06",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08-v2.png",
+        "sha256": "44674fefc78ced12b03b2ec7d36ee840115e1dd5f231992b93f02d1b34d17114"
+      },
+      {
+        "image_id": "R2-B1-07",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14-v2.png",
+        "sha256": "1b373f4dce8435e7792356524dc5f120ba113049166ec1b726220db64baf0328"
+      },
+      {
+        "image_id": "R2-B1-08",
+        "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16-v2.png",
+        "sha256": "978279ddb99fc4e4a2073a196425c5af4739225e0fc9f2241fdd76284c02819f"
+      },
+      {
+        "image_id": "R2-B1-09",
+        "asset_url": "https://bestcompany.example.com/assets/en-US/hero-05-v2.png",
+        "sha256": "632d52665be7c7eea693285659c5ab4cfda5ba049acb1b8430d23f44dd233280"
+      },
+      {
+        "image_id": "R2-B1-10",
+        "asset_url": "https://bestcompany.example.com/assets/en-US/quote-09-v2.png",
+        "sha256": "fd1a3c91df593abb8cb64da092dbeeb06f89ddc9790c9b24505b69cae01c023a"
+      }
+    ]
+  },
+  {
+    "batch": 2,
+    "images": [
+      {
+        "image_id": "R2-B2-01",
+        "asset_url": "https://bestcompany.example.com/assets/en-US/team-04-v2.png",
+        "sha256": "4cb448599a2d9f640f1381761b3c5db7af1db41ebf0caa4e45b13b948dfc97a4"
+      },
+      {
+        "image_id": "R2-B2-02",
+        "asset_url": "https://bestcompany.example.com/assets/en-US/team-06-v2.png",
+        "sha256": "870f9f58790dfbfd4b76771684c8a09af7cb4567b0697fd3be7ace61f382ef0b"
+      },
+      {
+        "image_id": "R2-B2-03",
+        "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01-v2.png",
+        "sha256": "b185bbdc2c1bd306eee44a60ca5c8c31441dfac937d4fcc0a62d4592247dae2a"
+      },
+      {
+        "image_id": "R2-B2-04",
+        "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07-v2.png",
+        "sha256": "cc32e5fcf2bf6a9a15028665573cda4a0297470f5591951ae73df8520b54e4e2"
+      },
+      {
+        "image_id": "R2-B2-05",
+        "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11-v2.png",
+        "sha256": "a81398b966c6c3003e3912a3b9cdf556ba6317ce2dc791de03b8a2d8ffeb14a4"
+      },
+      {
+        "image_id": "R2-B2-06",
+        "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04-v2.png",
+        "sha256": "13eadcc6c634bce90e0762cb40f82dbd553fa77735875cb3a7a75a35ffca7209"
+      },
+      {
+        "image_id": "R2-B2-07",
+        "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08-v2.png",
+        "sha256": "7edb11d53b0170ff052eb71adb3964c659b317aac6e737d3f97bb52d038a3a7d"
+      },
+      {
+        "image_id": "R2-B2-08",
+        "asset_url": "https://bestcompany.example.com/assets/shared/sig-01-v2.png",
+        "sha256": "d733b5eded10e272b10bd19986d902c62cb4a6c5babb1abf2a5caac84ebaf559"
+      }
+    ]
+  }
+]

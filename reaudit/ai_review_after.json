@@ -1,0 +1,693 @@
+{
+  "method": "An AI model viewed each image (10 per batch, as labelled contact sheets) and judged it on name (any locale form), email and avatar. Findings are matched to files by SHA-256.",
+  "confidence_threshold": 0.7,
+  "batches": 6,
+  "counts": {
+    "outdated": 0,
+    "not_outdated": 40,
+    "needs_review": 0,
+    "pending_review": 0
+  },
+  "images": [
+    {
+      "image_id": "R2-B1-01",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-10-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Arabic banner now shows Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar. No trace of Jordan Vale."
+    },
+    {
+      "image_id": "R2-B1-02",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/hero-15-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Arabic banner: 'Priya Nair', priya.nair@example.com, orange PN avatar. No Jordan Vale name, email or teal avatar."
+    },
+    {
+      "image_id": "B1-03",
+      "review_round": "round_1",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Product card 'Best Company cloud' with a dark-teal rounded square chart icon. Square with bars, not a round initials avatar; no name or email."
+    },
+    {
+      "image_id": "B1-04",
+      "review_round": "round_1",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-04.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card with navy chart icon; no person, name or email."
+    },
+    {
+      "image_id": "B1-05",
+      "review_round": "round_1",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-05.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'mobile app' with purple chart icon; no person."
+    },
+    {
+      "image_id": "B1-06",
+      "review_round": "round_1",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-06.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card with yellow chart icon; no person."
+    },
+    {
+      "image_id": "B1-07",
+      "review_round": "round_1",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/product-11.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'mobile app' with blue chart icon; no person."
+    },
+    {
+      "image_id": "R2-B1-03",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-01-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Arabic testimonial: Arabic-only بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-04",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-03-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Looks identical to R2-B1-03: بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-05",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-07-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Arabic testimonial, mint background: بريا ناير, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-06",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-08-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Arabic testimonial: Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-02",
+      "review_round": "round_1",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/quote-13.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona: Arabic + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-03",
+      "review_round": "round_1",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-12.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "جوردان فايل (Jordan Vail)",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike: name reads 'Jordan Vail' (Arabic فايل has an extra alif), email jordan.vail@example.com, purple (not teal) JV avatar."
+    },
+    {
+      "image_id": "R2-B1-07",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/sig-14-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Arabic email signature: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-05",
+      "review_round": "round_1",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-09.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-08",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/ar-SA/team-16-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "بريا ناير (Priya Nair)",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Arabic team card: 'Priya Nair', priya.nair@example.com, large orange PN avatar."
+    },
+    {
+      "image_id": "R2-B1-09",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/hero-05-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "English banner 'Meet your account manager': Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B2-08",
+      "review_round": "round_1",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/product-07.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'Mobile App' with navy chart icon; no person."
+    },
+    {
+      "image_id": "B2-09",
+      "review_round": "round_1",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/product-12.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'Best Company Cloud' with blue chart icon; no person."
+    },
+    {
+      "image_id": "R2-B1-10",
+      "review_round": "round_2",
+      "batch": 1,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/quote-09-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "English testimonial: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-01",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/quote-11.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike testimonial: 'Jordan Vail' (V-a-i-l), jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "B3-02",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/sig-08.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike email signature: 'Jordan Vail', jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "B3-05",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-01-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-04",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-05",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-03.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-01",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-04-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "English team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-02",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-06-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "English team card, mint background: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-08",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/en-US/team-10.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Jordan Vail",
+      "is_decoy": true,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Look-alike team card with the same layout as B3-07, but 'Jordan Vail', jordan.vail@example.com, purple avatar."
+    },
+    {
+      "image_id": "R2-B2-03",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-01-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Japanese banner: katakana プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B3-10",
+      "review_round": "round_1",
+      "batch": 3,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-02.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "ジョーダン・ベイル",
+      "is_decoy": true,
+      "confidence": 0.93,
+      "status": "not_outdated",
+      "evidence": "Japanese look-alike banner: katakana ジョーダン・ベイル (Vail, ベ not ヴェ), jordan.vail@example.com, purple JV avatar."
+    },
+    {
+      "image_id": "R2-B2-04",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-07-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Japanese banner, pink background: プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-05",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/hero-11-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Japanese banner: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-03",
+      "review_round": "round_1",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-05.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.95,
+      "status": "not_outdated",
+      "evidence": "Product card '分析スイート' with a dark-teal rounded square chart icon. Square with bars, not a round avatar; no name or email."
+    },
+    {
+      "image_id": "B4-04",
+      "review_round": "round_1",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/product-10.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "status": "not_outdated",
+      "evidence": "Product card 'モバイルアプリ' with navy chart icon; no person."
+    },
+    {
+      "image_id": "R2-B2-06",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-04-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Japanese testimonial: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-06",
+      "review_round": "round_1",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/quote-09.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona testimonial: 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-07",
+      "review_round": "round_1",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-03.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: katakana プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "B4-07",
+      "review_round": "round_1",
+      "batch": 4,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-06-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Approved persona team card: katakana プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-07",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/ja-JP/team-08-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "status": "not_outdated",
+      "evidence": "Japanese team card: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-08",
+      "review_round": "round_2",
+      "batch": 2,
+      "asset_url": "https://bestcompany.example.com/assets/shared/sig-01-v2.png",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "status": "not_outdated",
+      "evidence": "Shared email signature: Priya Nair, priya.nair@example.com, orange PN avatar."
+    }
+  ]
+}
