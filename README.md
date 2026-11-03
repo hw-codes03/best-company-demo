@@ -37,6 +37,42 @@ The seed is fixed (`SEED` in `sitegen/config.py`), so every run writes byte-iden
 - **Decoys**: 5 images show Jordan Vail, a different person with the same "JV" initials, a purple avatar and `jordan.vail@example.com`. They must not be replaced.
 - **Locale name forms**: Japanese and Arabic images write the name in katakana or Arabic script, sometimes with the Latin name in brackets.
 
+## Crawl and compare with the client audit
+
+```bash
+python3 crawl_site.py
+```
+
+This serves `site/` on a local web server (127.0.0.1) and crawls it by following links,
+starting from `sitemap.xml` and the home page. It reads image URLs from `src`, `data-src` and
+`srcset`, downloads every image and hashes it with SHA-256. Each image is then checked for
+the outdated persona's teal round avatar. It writes:
+
+| Path | What it is |
+|---|---|
+| `manifest.csv` | Every (page, image) pair from the crawl and the audit: `asset_id, source, page_url, locale, asset_url, file_sha256, duplicate_group_id, status` |
+| `gap_report.md` | What the audit missed, its false positives, its duplicate rows, and the pages missing from the sitemap |
+
+`status` is what the detector saw: `outdated` (teal avatar), `approved` (orange avatar),
+`other_person` (an avatar in another colour), `no_person` or `not_found`. Identical files
+share a `duplicate_group_id`. A file that appears only once has none.
+
+The crawler never reads `answer_key/`. A Python audit hook (`crawler/guard.py`) stops the
+program if anything tries to open it, and the local server exposes only `site/`.
+
+## Code layout (`crawler/`)
+
+| Module | Job |
+|---|---|
+| `settings.py` | Paths, public URL, and the persona facts from the client brief |
+| `guard.py` | Blocks any file open under `answer_key/` |
+| `server.py` | Serves `site/` on a free local port |
+| `crawl.py` | Follows links; collects `src`, `data-src`, `srcset`; downloads and hashes images |
+| `detect.py` | Finds round avatars in the pixels and classifies them by colour |
+| `audit_reader.py` | Reads `client_audit.csv` |
+| `manifest.py` | Merges crawl and audit into `manifest.csv`; groups identical files by hash |
+| `gap_report.py` | Writes `gap_report.md` |
+
 ## Code layout (`sitegen/`)
 
 | Module | Job |
