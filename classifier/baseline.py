@@ -57,8 +57,9 @@ def run_baseline(crawler):
     return [classify(url, alts.get(url, [])) for url in sorted(crawler.assets)]
 
 
-def write_baseline(predictions):
-    with open(BASELINE_CSV, "w", newline="", encoding="utf-8") as f:
+def write_baseline(predictions, path=BASELINE_CSV):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["asset_url", "flagged", "rule", "evidence"])
         for p in predictions:

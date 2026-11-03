@@ -1,0 +1,110 @@
+{
+  "batch": 2,
+  "reviewer": "Claude (AI), viewing ai_review/round_2/sheets/batch_02.png",
+  "findings": [
+    {
+      "image_id": "R2-B2-01",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "evidence": "English team card: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-02",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "evidence": "English team card, mint background: Priya Nair, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-03",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "evidence": "Japanese banner: katakana プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-04",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル",
+      "is_decoy": false,
+      "confidence": 0.97,
+      "evidence": "Japanese banner, pink background: プリヤ・ナイル, priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-05",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Japanese banner: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-06",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Japanese testimonial: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-07",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "プリヤ・ナイル（Priya Nair）",
+      "is_decoy": false,
+      "confidence": 0.98,
+      "evidence": "Japanese team card: katakana + Latin 'Priya Nair', priya.nair@example.com, orange PN avatar."
+    },
+    {
+      "image_id": "R2-B2-08",
+      "contains_outdated_persona": false,
+      "signals": {
+        "name": false,
+        "email": false,
+        "avatar": false
+      },
+      "name_form_seen": "Priya Nair",
+      "is_decoy": false,
+      "confidence": 0.99,
+      "evidence": "Shared email signature: Priya Nair, priya.nair@example.com, orange PN avatar."
+    }
+  ]
+}

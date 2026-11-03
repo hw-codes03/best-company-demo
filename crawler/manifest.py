@@ -84,8 +84,9 @@ def build_manifest(crawler, audit_rows):
     return rows
 
 
-def write_manifest(rows):
-    with open(MANIFEST_CSV, "w", newline="", encoding="utf-8") as f:
+def write_manifest(rows, path=MANIFEST_CSV):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(COLUMNS)
         for r in rows:
