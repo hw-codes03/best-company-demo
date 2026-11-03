@@ -33,6 +33,7 @@ class PageResult:
     found_via: list = field(default_factory=list)   # ("sitemap"|"start"|"link", from_url, in_footer)
     links: list = field(default_factory=list)       # Link objects
     images: list = field(default_factory=list)      # (public image URL, attribute name)
+    alts: dict = field(default_factory=dict)        # public image URL -> its alt text
 
 
 @dataclass
@@ -51,6 +52,7 @@ class _PageParser(HTMLParser):
         self.footer_depth = 0
         self.links = []      # (href, in_footer)
         self.images = []     # (url, attribute)
+        self.alts = {}       # url -> alt text
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -68,6 +70,7 @@ class _PageParser(HTMLParser):
                 for u in urls:
                     if not u.startswith("data:"):  # skip inline placeholders
                         self.images.append((u, name))
+                        self.alts[u] = attrs.get("alt", "")
 
     def handle_endtag(self, tag):
         if tag == "footer" and self.footer_depth:
@@ -131,6 +134,7 @@ class Crawler:
                     queue.append((target, ("link", url, in_footer)))
             for src, attribute in parser.images:
                 page.images.append((urljoin(url, src), attribute))
+                page.alts[urljoin(url, src)] = parser.alts.get(src, "")
 
         for page in self.pages.values():
             for img_url, _ in page.images:
